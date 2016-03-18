@@ -39,6 +39,12 @@ group :development, :test do
   gem 'spring'
 end
 
+group :test do
+  gem 'minitest-reporters'
+  gem "mini_backtrace"
+  gem "guard-minitest"
+end
+
 group :development do
   gem 'web-console', '~> 2.0'
   # Access an IRB console on exception pages or by using <%= console %> in views
